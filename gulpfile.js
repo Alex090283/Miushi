@@ -12,7 +12,6 @@ const imagemin = require('gulp-imagemin');
 const newer = require('gulp-newer');
 const fonter = require('gulp-fonter');
 const ttf2woff2 = require('gulp-ttf2woff2');
-const svgSprite = require('gulp-svg-sprite');
 const include = require('gulp-include');
 
 function pages() {
@@ -26,12 +25,12 @@ function pages() {
 
 function fonts() {
     return src('app/fonts/src/*.*')
-        pipe(fonter({
+        .pipe(fonter({
             formats: ['woff', 'ttf']
         }))
-        pipe(src('app/fonts/*.ttf'))
-        pipe(ttf2woff2())
-        pipe(dest('app/fonts'))
+        .pipe(src('app/fonts/*.ttf'))
+        .pipe(ttf2woff2())
+        .pipe(dest('app/fonts'))
 }
 
 function images() {
@@ -47,20 +46,6 @@ function images() {
 
         .pipe(dest('app/images'))
 }
-
-function sprite() {
-    return src('app/images/*.svg')
-        .pipe(svgSprite({
-            mode: {
-                stack: {
-                    sprite: '../sprite.svg',
-                        example: true
-                }
-            }
-        }))
-        .pipe(dest('app/images'))
-}
-
 
 function scripts() {
     return src([
@@ -112,9 +97,10 @@ function building() {
     return src([
         'app/fonts/*.*',
         'app/css/style.min.css',
+        'app/fonts/*.woff',
+        'app/fonts/*.woff2',
         'app/images/*.*',
         '!app/images/*.svg',
-        'app/images/sprite.svg',
         'app/js/main.min.js',
         'app/**/*.html'
     ], {base: 'app'})
@@ -127,7 +113,6 @@ exports.building = building;
 exports.fonts = fonts;
 exports.pages = pages;
 exports.scripts = scripts;
-exports.sprite = sprite;
 exports.watching = watching;
 
 exports.build = series(cleanDist, building);

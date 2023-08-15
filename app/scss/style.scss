@@ -4,6 +4,56 @@
 @import 'libs';
 @import 'global';
 
+.header {
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {}
+
+    &__logo-img {}
+
+    &__address {}
+
+    &__mail {}
+
+    &__box {}
+
+    &__phone {}
+
+    &__time {}
+
+    &__btn {}
+
+    &__nav {}
+
+    &__nav-list {}
+
+    &__nav-item {}
+
+    &__nav-link {}
+
+    &__sale {}
+
+    &__cabinet {}
+
+    &__basket {}
+}
+
+.container {}
+
+.cabinet-img {}
+
+.cabinet-text {}
+
+.basket-img {}
+
+.basket-num {}
+
+
 
 
 
@@ -14,4 +64,3 @@
 
 
 @import 'media';
-
