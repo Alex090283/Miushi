@@ -3,6 +3,11 @@ body {
 	height: 100%;
 }
 
+body,
+a {
+	color: #010101;
+}
+
 .wrapper {
 	display: flex;
 	flex-direction: column;
