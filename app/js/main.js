@@ -1,3 +1,7 @@
 $(function(){
+    $('.cover__slider').slick({
+        prevArrow: '<button class="slider-btn slider-btn__left"></button>',
+        nextArrow: '<button class="slider-btn slider-btn__right"></button>',
+    });
 
 });
