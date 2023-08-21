@@ -203,6 +203,7 @@
         line-height: 100px;
         position: relative;
         margin-bottom: 45px;
+        margin-top: 112px;
     }
 
     &__slider-discount {
@@ -239,6 +240,33 @@
         text-transform: uppercase;
         color: #fefffe;
     }
+}
+
+.slick-dots {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 65px;
+
+    button {
+        border-radius: 50%;
+        background-color: transparent;
+        width: 15px;
+        height: 15px;
+        border: 2px solid #c2c2c2;
+        color: transparent;
+        margin: 0 13px;
+    }
+
+    .slick-active{
+        button {
+            background-color: #1fba0a;
+            border: 2px solid #1fba0a;
+        }
+    }
+
+    
 }
 
 
