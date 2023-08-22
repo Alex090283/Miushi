@@ -30,7 +30,7 @@ a {
 
 .title-box {
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
 
 .title {
@@ -91,26 +91,133 @@ a {
 	filter: opacity(0.5);
 }
 
-.sets__slider {
+.card-box {
+	text-align: center;
+	max-width: 263px;
+	box-shadow: 0px 4px 29px 0px rgba(0, 0, 0, 0.07);
+	border-radius: 10px;
+	margin-bottom: 56px;
 
-	.slick-dots {
+	&__img {
+		margin: 0 auto 29px;
+	}
+
+	&__title {
+		@extend %openSans-bold;
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 23px;
+	}
+
+	&__info {
+		margin-bottom: 26px;
+	}
+
+	&__info-text {
+		@extend %openSans-light;
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	&__info-slash {
+		@extend %openSans-light;
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	&__price {
 		display: flex;
+		justify-content: space-between;
+		width: 193px;
+		margin: 0 auto 29px;
+	}
+
+	&__price-text {
+		@extend %robotoSlab-bold;
+		font-size: 22px;
+		line-height: 28px;
+	}
+
+	&__price-quantity {
+		@extend %openSans-regular;
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	&__btn {
+		margin-bottom: 38px;
+		background-color: #fd4f10;
+		border-radius: 5px;
+		padding: 15px 78px 14px 35px;
+		border: none;
+		@extend %openSans-semibold;
+		font-size: 14px;
+		line-height: 28px;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: #ffffff;
+		position: relative;
+		cursor: pointer;
+
+		&::after {
+			content: '';
+			position: absolute;
+			background-image: url(../images/button-cart.svg);
+			width: 22px;
+			height: 20px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			top: 20px;
+			right: 26px;
+		}
+	}
+}
+
+.counter {
+	display: flex;
+	align-items: center;
+}
+
+.decrement,
+.increment {
+	width: 13px;
+	height: 13px;
+	border: 1px solid #808080;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-color: transparent;
+	@extend %openSans-regular;
+	font-size: 14px;
+	color: #808080;
+	position: relative;
+	cursor: pointer;
+}
+
+.decrement {
+	margin-right: 15px;
+
+	&::before {
+		content: '-';
 		position: absolute;
-		left: 50%;
-		transform: translateX(-50%);
-		bottom: -20px;
+		@extend %openSans-regular;
+		font-size: 14px;
+		color: #808080;
+		top: -6px;
+		right: 4px;
+	}
+}
 
-		button {
-			border-radius: 50%;
-			width: 8px;
-			background-color: #b2b2b2;
-			margin: 0 11px;
-		}
+.increment {
+	margin-left: 15px;
 
-		.slick-active {
-			button {
-				background-color: #67b437;
-			}
-		}
+	&::before {
+		content: '+';
+		position: absolute;
+		@extend %openSans-regular;
+		font-size: 14px;
+		color: #808080;
+		top: -5px;
+		right: 2px;
 	}
 }

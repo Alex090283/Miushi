@@ -16,6 +16,15 @@ $(function () {
         dots: true,
     });
 
+    $('.rolls__slider').slick({
+        prevArrow: '<button class="all-btn all-btn__left"></button>',
+        nextArrow: '<button class="all-btn all-btn__right"></button>',
+        infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        dots: true,
+    });
+
     const cards = document.querySelectorAll(".card");
 
     cards.forEach(card => {
