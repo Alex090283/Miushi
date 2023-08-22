@@ -685,6 +685,139 @@
     display: none;
 }
 
+.promotion__title-novelties.promotion__title-novelties--active,
+.promotion__title-stock.promotion__title-stock--active {
+    color: #fd4f10;
+}
+
+.promotion__title-novelties.promotion__title-novelties--active {
+    .stock {
+        display: none;
+    }
+}
+
+.promotion__title-stock.promotion__title-stock--active {
+    .novelties {
+        display: none;
+    }
+}
+
+.promotion {
+    padding-top: 70px;
+
+    &__title {
+        display: flex;
+        justify-content: start;
+        margin-bottom: 57px;
+    }
+
+    &__title-novelties {
+        margin-right: 69px;
+        @extend %openSans-semibold;
+        font-size: 18px;
+        color: #999999;
+        cursor: pointer;
+    }
+
+    &__title-stock {
+        @extend %openSans-semibold;
+        font-size: 18px;
+        color: #999999;
+        cursor: pointer;
+    }
+}
+
+.novelties {
+    display: none;
+
+    &__inner {
+        margin-bottom: 80px;
+        position: relative;
+    }
+
+    &__img {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            /*
+            ! вырезать правильно картинку new!
+            **/
+            background-image: url(../images/new.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+
+    &__slider {
+        .slick-dots {
+            display: flex;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -20px;
+
+            button {
+                border-radius: 50%;
+                width: 8px;
+                background-color: #b2b2b2;
+                margin: 0 11px;
+            }
+
+            .slick-active {
+                button {
+                    background-color: #67b437;
+                }
+            }
+        }
+    }
+}
+
+.pizza {
+
+    &__slider-box {}
+}
+
+.card {}
+
+.stock {
+    display: none;
+    &__inner {
+        margin-bottom: 80px;
+        position: relative;
+    }
+
+    &__slider {
+        .slick-dots {
+            display: flex;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -20px;
+
+            button {
+                border-radius: 50%;
+                width: 8px;
+                background-color: #b2b2b2;
+                margin: 0 11px;
+            }
+
+            .slick-active {
+                button {
+                    background-color: #67b437;
+                }
+            }
+        }
+    }
+}
+
+.stock.stock--on,
+.novelties.novelties--on {
+    display: block;
+}
+
+
 
 
 

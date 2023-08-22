@@ -43,6 +43,24 @@ $(function () {
         dots: true,
     });
 
+    $('.novelties__slider').slick({
+        prevArrow: '<button class="all-btn all-btn__left"></button>',
+        nextArrow: '<button class="all-btn all-btn__right"></button>',
+        infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        dots: true,
+    });
+
+    $('.stock__slider').slick({
+        prevArrow: '<button class="all-btn all-btn__left"></button>',
+        nextArrow: '<button class="all-btn all-btn__right"></button>',
+        infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        dots: true,
+    });
+
     const cards = document.querySelectorAll(".card");
 
     cards.forEach(card => {
@@ -102,6 +120,20 @@ $(function () {
             const totalPrice = (saucePrice * sauceQuantity).toFixed(2);
             priceElement.textContent = totalPrice;
         }
+    });
+
+    $('.promotion__title-novelties').on('click', function () {
+        $('.promotion__title-novelties').addClass('promotion__title-novelties--active');
+        $('.novelties').addClass('novelties--on');
+        $('.promotion__title-stock').removeClass('promotion__title-stock--active');
+        $('.stock').removeClass('stock--on');
+    });
+
+    $('.promotion__title-stock').on('click', function () {
+        $('.promotion__title-stock').addClass('promotion__title-stock--active');
+        $('.stock').addClass('stock--on');
+        $('.promotion__title-novelties').removeClass('promotion__title-novelties--active');
+        $('.novelties').removeClass('novelties--on');
     });
 
 
