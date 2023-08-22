@@ -411,8 +411,6 @@
         position: relative;
     }
 
-    &__title {}
-
     &__slider {
         .slick-dots {
             display: flex;
@@ -460,17 +458,56 @@
     }
 }
 
+.pizza {
+
+    &__inner {
+        margin-bottom: 80px;
+        position: relative;
+    }
 
 
+    &__slider {
+        .slick-dots {
+            display: flex;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -20px;
 
+            button {
+                border-radius: 50%;
+                width: 8px;
+                background-color: #b2b2b2;
+                margin: 0 11px;
+            }
 
-.card {}
+            .slick-active {
+                button {
+                    background-color: #67b437;
+                }
+            }
+        }
+    }
 
-.counter {}
+    &__slider-box {
+        &--hot {
+            position: relative;
 
-.decrement {}
-
-.increment {}
+            &::after {
+                content: '';
+                position: absolute;
+                background-image: url(../images/fire.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 49px;
+                height: 49px;
+                top: 22px;
+                right: 17px;
+            }
+        }
+    }
+}
 
 
 
