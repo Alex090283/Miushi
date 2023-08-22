@@ -34,6 +34,15 @@ $(function () {
         dots: true,
     });
 
+    $('.wok__slider').slick({
+        prevArrow: '<button class="all-btn all-btn__left"></button>',
+        nextArrow: '<button class="all-btn all-btn__right"></button>',
+        infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        dots: true,
+    });
+
     const cards = document.querySelectorAll(".card");
 
     cards.forEach(card => {
@@ -55,6 +64,44 @@ $(function () {
             count++;
             countElement.textContent = count;
         });
+    });
+
+    const cardsWok = document.querySelectorAll(".wok__slider-box");
+
+    cardsWok.forEach(card => {
+        const clearButton = card.querySelector(".clear");
+        const plusButton = card.querySelector(".plus");
+        const quantityElement = card.querySelector(".quantity");
+        const priceElement = card.querySelector(".price");
+        const sauceSelect = document.getElementById("sauce-select");
+
+        let saucePrice = 0; // Цена за один соус
+        let sauceQuantity = 0;
+
+        sauceSelect.addEventListener("change", function () {
+            saucePrice = parseFloat(sauceSelect.value); // Получаем значение value и преобразуем в число
+            updateTotalPrice();
+        });
+
+        clearButton.addEventListener("click", function () {
+            sauceQuantity = 0;
+            updateQuantity();
+        });
+
+        plusButton.addEventListener("click", function () {
+            sauceQuantity++;
+            updateQuantity();
+        });
+
+        function updateQuantity() {
+            quantityElement.innerHTML = `<span class="quantity__plus">+</span>${sauceQuantity}`;
+            updateTotalPrice();
+        }
+
+        function updateTotalPrice() {
+            const totalPrice = (saucePrice * sauceQuantity).toFixed(2);
+            priceElement.textContent = totalPrice;
+        }
     });
 
 

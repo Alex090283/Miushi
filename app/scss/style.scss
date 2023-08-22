@@ -509,6 +509,185 @@
     }
 }
 
+.wok {
+
+    &__inner {
+        margin-bottom: 80px;
+        position: relative;
+    }
+
+    &__slider {
+        .slick-dots {
+            display: flex;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -20px;
+
+            button {
+                border-radius: 50%;
+                width: 8px;
+                background-color: #b2b2b2;
+                margin: 0 11px;
+            }
+
+            .slick-active {
+                button {
+                    background-color: #67b437;
+                }
+            }
+        }
+    }
+
+    &__slider-img {
+        margin: 26px auto 47px;
+    }
+
+    &__slider-box {
+        position: relative;
+    }
+
+    &__info {
+        margin-bottom: 26px;
+    }
+
+    &__info-text {
+        @extend %openSans-light;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    &__info-slash {
+        @extend %openSans-light;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+.sauce-quantity {
+    display: flex;
+    justify-content: space-between;
+    width: 193px;
+    margin: 0 auto 14px;
+
+    &__left {
+        width: 110px;
+        display: flex;
+        justify-content: flex-start;
+        @extend %openSans-regular;
+        font-size: 12px;
+        line-height: 28px;
+        align-items: center;
+    }
+
+    &__left-text {
+        margin-right: 5px;
+    }
+
+    &__right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            display: flex;
+            padding-right: 5px;
+        }
+    }
+}
+
+.quantity {
+    @extend %openSans-light;
+    font-size: 12px;
+    width: 30px;
+    height: 20px;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+
+
+    &__plus {
+        @extend %openSans-light;
+        font-size: 12px;
+    }
+}
+
+.clear {
+    @extend %openSans-light;
+    font-size: 12px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    left: 113px;
+    bottom: 218px;
+    cursor: pointer;
+}
+
+.price {
+    @extend %openSans-light;
+    font-size: 12px;
+
+    span {
+        @extend %openSans-light;
+        font-size: 12px;
+    }
+}
+
+.plus {
+    width: 19px;
+    height: 19px;
+    background-color: #fd4f10;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+#sauce-select {
+    width: 193px;
+    height: 25px;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    margin-bottom: 27px;
+}
+
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(../images/select-arrow.png) no-repeat right center;
+    /* Своя стрелка */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    @extend %openSans-light;
+    width: 100%;
+    padding-left: 14px;
+    cursor: pointer;
+
+
+    &__text {
+        @extend %openSans-light;
+        font-size: 12px;
+    }
+}
+
+/* Стилизация выпадающего списка */
+.custom-select:focus {
+    outline: none;
+    /* border-color: #007bff; */
+    /* Изменение цвета рамки при фокусе */
+}
+
+/* Скрытие стрелки стандартного селекта */
+.custom-select::-ms-expand {
+    display: none;
+}
+
+
+
+
 
 
 
