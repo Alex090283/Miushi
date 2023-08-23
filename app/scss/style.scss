@@ -735,20 +735,25 @@
         position: relative;
     }
 
-    &__img {
+    &__slider-box {
         position: relative;
+        overflow: hidden;
+
         &::before {
             content: '';
             position: absolute;
-            /*
-            ! вырезать правильно картинку new!
-            **/
             background-image: url(../images/new.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+            width: 121px;
+            height: 121px;
+            top: -30px;
+            left: -30px;
         }
     }
+
+    &__img {}
 
     &__slider {
         .slick-dots {
@@ -783,6 +788,7 @@
 
 .stock {
     display: none;
+
     &__inner {
         margin-bottom: 80px;
         position: relative;
