@@ -753,8 +753,6 @@
         }
     }
 
-    &__img {}
-
     &__slider {
         .slick-dots {
             display: flex;
@@ -778,13 +776,6 @@
         }
     }
 }
-
-.pizza {
-
-    &__slider-box {}
-}
-
-.card {}
 
 .stock {
     display: none;
@@ -851,6 +842,119 @@
         color: #4d4d4d;
     }
 }
+
+.reviews {
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 110px;
+    }
+
+    &__box {
+        max-width: 360px;
+        border: 1px solid #e6e6e6;
+        padding-left: 49px;
+        padding: 43px 50px 48px;
+    }
+
+    &__author-img {
+        display: flex;
+        align-items: center;
+        margin-bottom: 34px;
+    }
+
+    &__text {
+        @extend %openSans-regular;
+        font-size: 14px;
+        line-height: 18px;
+        width: 217px;
+        margin-bottom: 26px;
+    }
+
+    &__product {
+        margin-bottom: 30px;
+    }
+
+    &__icons {
+        display: flex;
+        align-items: center;
+        margin-bottom: 18px;
+    }
+
+    &__heart {
+        margin-right: 21px;
+    }
+
+    &__comment {
+        position: relative;
+        margin-right: 35px;
+
+        span {
+            @extend %openSans-bold;
+            font-size: 22px;
+            color: #5e81a7;
+            position: absolute;
+            bottom: 2px;
+            left: 31px;
+        }
+    }
+
+    &__mouthpiece {
+        margin-top: 4px;
+    }
+
+    &__btn {
+        color: #f8fdfd;
+        background-color: #5e81a7;
+        width: 258px;
+        text-align: center;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+}
+
+.author-img {
+    margin-right: 18px;
+}
+
+.author-about {
+
+    &__name {
+        @extend %openSans-bold;
+        font-size: 15px;
+        line-height: 28px;
+        color: #5e81a7;
+    }
+
+    &__date {
+        @extend %openSans-semibold;
+        font-size: 13px;
+        line-height: 28px;
+        color: #999999;
+    }
+}
+
+.subscribe {
+
+    &__wrapper {}
+
+    &__question {}
+
+    &__call {}
+
+    &__form {}
+
+    &__form-name {}
+
+    &__form-phone {}
+
+    &__form-btn {}
+
+    &__text {}
+}
+
+
 
 
 
