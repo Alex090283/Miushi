@@ -911,6 +911,7 @@
         text-align: center;
         padding: 10px 20px;
         cursor: pointer;
+        border-radius: 4px;
     }
 }
 
@@ -937,21 +938,104 @@
 
 .subscribe {
 
-    &__wrapper {}
 
-    &__question {}
+    &__wrapper {
+        background-image: url(../images/subscribe-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 80px 0 82px;
+        text-align: start;
+        margin-bottom: 77px;
+    }
 
-    &__call {}
+    &__question {
+        @extend %openSans-regular;
+        font-size: 16px;
+        line-height: 30px;
+        color: #ffffff;
+        margin-left: 376px;
+    }
 
-    &__form {}
+    &__call {
+        @extend %lemonTree-regular;
+        font-size: 54px;
+        line-height: 54px;
+        color: #ffffff;
+        margin-left: 376px;
+        margin-bottom: 30px;
+    }
 
-    &__form-name {}
+    &__form {
+        margin-left: 376px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 37px;
+    }
 
-    &__form-phone {}
+    &__form-name {
+        width: 241px;
+        @extend %openSans-regular;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffffff;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #ffffff;
+        padding: 13px 14px 11px;
+        outline: none;
 
-    &__form-btn {}
+        &::placeholder {
+            @extend %openSans-regular;
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+        }
+    }
 
-    &__text {}
+    &__form-phone {
+        width: 241px;
+        @extend %openSans-regular;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffffff;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #ffffff;
+        padding: 13px 14px 11px;
+        outline: none;
+
+        &::placeholder {
+            @extend %openSans-regular;
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+        }
+    }
+
+    &__form-btn {
+        width: 192px;
+        background-color: #fd4f10;
+        border-radius: 5px;
+        @extend %openSans-semibold;
+        font-size: 14px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        padding: 18px;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__text {
+        margin-left: 376px;
+        opacity: 0.7;
+        @extend %openSans-regular;
+        font-size: 12px;
+        line-height: 30px;
+            color: #ffffff;
+    }
 }
 
 
