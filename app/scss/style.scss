@@ -823,9 +823,34 @@
     display: block;
 }
 
+.advantages {
 
+    &__inner {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto auto;
+        gap: 10px;
+        row-gap: 38px;
+        margin-bottom: 76px;
+    }
 
+    &__box {
+        width: 192px;
+        text-align: center;
+    }
 
+    &__img {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        @extend %openSans-regular;
+        font-size: 16px;
+        line-height: 28px;
+        color: #4d4d4d;
+    }
+}
 
 
 
