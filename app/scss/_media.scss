@@ -1,0 +1,128 @@
+@media (max-width: 1100px) {
+    .header-top__address {
+        display: none;
+    }
+}
+
+@media (max-width: 920px) {
+    .nav-button {
+        display: block;
+        padding: 20px 0;
+        cursor: pointer;
+        order: -1;
+        position: relative;
+
+        span {
+            display: block;
+            background-color: #010101;
+            margin-bottom: 3px;
+            width: 30px;
+            height: 3px;
+        }
+    }
+
+    .header__nav-list {
+        position: absolute;
+        max-width: 97%;
+        flex-direction: column;
+        transform: translateY(-500px);
+        transition: all .5s;
+        z-index: -1;
+        background-color: rgba(#010101, 0.5);
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .header__nav-list--active {
+        transform: translateY(50px);
+    }
+
+    .header__nav-item {
+        margin-right: 15px;
+    }
+
+    .header__nav-link {
+        color: #fff;
+    }
+}
+
+@media (max-width: 800px) {
+    .header-top__mail {
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
+    .header-top__phone {
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #fff;
+        padding: 20px 0;
+    }
+
+    .header-top__time,
+    .header-top__btn {
+        display: none;
+    }
+
+    .cabinet-text,
+    .basket-text {
+        display: none;
+    }
+
+    .header__sale {
+        justify-content: flex-end;
+        margin-right: 0;
+        margin-left: -100px;
+        
+    }
+
+    .header-top__inner {
+        margin-top: 0;
+        padding: 17px 8px 15px 7px;
+        justify-content: space-between;
+    }
+
+    .header-top {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    .header-top__logo {
+        margin-left: 200px;
+    }
+
+    .cover__slider-title {
+        font-size: 72px;
+        line-height: 86px;
+        margin-bottom: 33px;
+        margin-top: 28px;
+        max-width: 333px;
+    }
+
+    .slider-btn {
+        display: none;
+    }
+
+}
+
+@media (max-width: 630px) {
+    .header-top__logo {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 540px) {
+    .header-top__time{
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-top__inner {
+        display: block;
+    }
+    .header__sale-link:last-child {
+        margin-left: 25px;
+    }
+}

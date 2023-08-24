@@ -1,4 +1,5 @@
 $(function () {
+
     $('.cover__slider').slick({
         prevArrow: '<button class="slider-btn slider-btn__left"></button>',
         nextArrow: '<button class="slider-btn slider-btn__right"></button>',
@@ -136,5 +137,32 @@ $(function () {
         $('.novelties').removeClass('novelties--on');
     });
 
+    $('.nav-button').on('click', function () {
+        $('.header__nav-list').toggleClass('header__nav-list--active');
 
+    });
+
+    const block1 = document.querySelector('.header-top__phone');
+    const block2 = document.querySelector('.header__nav-list');
+    const navButton = document.querySelector('.nav-button');
+    const headerTopInner = document.querySelector('.header-top__inner');
+    const headerTopLogo = document.querySelector('.header-top__logo');
+    const headerSale = document.querySelector('.header__sale');
+
+    const mediaQuery = window.matchMedia("(max-width: 750px)");
+
+    function handleMediaQuery(event) {
+        if (event.matches) {
+            block2.appendChild(block1);
+            headerTopInner.insertBefore(navButton, headerTopLogo);
+            headerTopInner.insertBefore(headerSale, headerTopLogo.nextSibling);
+        } else {
+            block1.parentNode.insertBefore(block1, block2.nextElementSibling);
+            headerTopInner.appendChild(navButton);
+            headerTopInner.appendChild(headerSale);
+        }
+    }
+
+    mediaQuery.addEventListener('change', handleMediaQuery);
+    handleMediaQuery(mediaQuery);
 });
