@@ -1,11 +1,17 @@
 $(function () {
 
     $('.cover__slider').slick({
-        prevArrow: '<button class="slider-btn slider-btn__left"></button>',
-        nextArrow: '<button class="slider-btn slider-btn__right"></button>',
-        autoplay: true,
+        prevArrow: '<button class="slider-btn slider-btn__left cover__slider-arrow"></button>',
+        nextArrow: '<button class="slider-btn slider-btn__right cover__slider-arrow"></button>',
+        autoplay: false,
         dots: true,
         fade: true,
+        responsive: [{
+            breakpoint: 751,
+            settings: {
+                arrows: true,
+            }
+        }, ]
     });
 
     $('.sets__slider').slick({
@@ -15,6 +21,13 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 4,
         dots: true,
+        responsive: [{
+            breakpoint: 751,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }, ]
     });
 
     $('.rolls__slider').slick({
@@ -24,6 +37,13 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 4,
         dots: true,
+        responsive: [{
+            breakpoint: 751,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }, ]
     });
 
     $('.pizza__slider').slick({
@@ -33,6 +53,13 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 4,
         dots: true,
+        responsive: [{
+            breakpoint: 751,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }, ]
     });
 
     $('.wok__slider').slick({
@@ -42,6 +69,13 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 4,
         dots: true,
+        responsive: [{
+            breakpoint: 751,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }, ]
     });
 
     $('.novelties__slider').slick({
@@ -51,6 +85,13 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 4,
         dots: true,
+        responsive: [{
+            breakpoint: 751,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }, ]
     });
 
     $('.stock__slider').slick({
@@ -60,6 +101,13 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 4,
         dots: true,
+        responsive: [{
+            breakpoint: 751,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        }, ]
     });
 
     const cards = document.querySelectorAll(".card");
