@@ -14,7 +14,7 @@
 
         span {
             display: block;
-            background-color: #010101;
+            background-color: #4ec83d;
             margin-bottom: 3px;
             width: 30px;
             height: 3px;
@@ -255,6 +255,7 @@
     .accordion-item {
         border-bottom: 1px solid #20353d;
         margin-bottom: 10px;
+
         &:last-child {
             margin-bottom: 0;
         }
@@ -334,5 +335,21 @@
 
     .header__sale-link:last-child {
         margin-left: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .header-top__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__sale {
+        margin-left: 0;
+        justify-content: normal;
+        width: 67px;
+        max-width: fit-content;
+        width: auto;
     }
 }
