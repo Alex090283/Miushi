@@ -213,4 +213,43 @@ $(function () {
 
     mediaQuery.addEventListener('change', handleMediaQuery);
     handleMediaQuery(mediaQuery);
+
+    const accordionItems = document.querySelectorAll(".accordion-item");
+
+    accordionItems.forEach(item => {
+        const header = item.querySelector(".accordion-header");
+        const content = item.querySelector(".accordion-content");
+        const img = item.querySelector(".accordion-img");
+
+        header.addEventListener("click", function () {
+            if (!content.classList.contains("accordion-content--active")) {
+                closeAllItems();
+            }
+
+            content.classList.toggle("accordion-content--active");
+            img.classList.toggle("accordion-img--active");
+
+            if (content.classList.contains("accordion-content--active")) {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        });
+    });
+
+    function closeAllItems() {
+        accordionItems.forEach(item => {
+            const itemContent = item.querySelector(".accordion-content");
+            const itemImg = item.querySelector(".accordion-img");
+
+            if (itemContent.classList.contains("accordion-content--active")) {
+                itemContent.style.display = "none";
+                itemContent.classList.remove("accordion-content--active");
+            }
+
+            if (itemImg.classList.contains("accordion-img--active")) {
+                itemImg.classList.remove("accordion-img--active");
+            }
+        });
+    }
 });
