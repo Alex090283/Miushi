@@ -22,12 +22,33 @@ $(function () {
         slidesToScroll: 4,
         dots: true,
         responsive: [{
-            breakpoint: 751,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                breakpoint: 1101,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                },
+
+            },
+            {
+                breakpoint: 841,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                },
+            },
+            {
+                breakpoint: 541,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    prevArrow: false,
+                    nextArrow: false,
+                    dots: false,
+                    centerPadding: '10%',
+                },
             }
-        }, ]
+        ]
     });
 
     $('.rolls__slider').slick({
@@ -38,12 +59,33 @@ $(function () {
         slidesToScroll: 4,
         dots: true,
         responsive: [{
-            breakpoint: 751,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                breakpoint: 1101,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                },
+
+            },
+            {
+                breakpoint: 841,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                },
+            },
+            {
+                breakpoint: 541,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    prevArrow: false,
+                    nextArrow: false,
+                    dots: false,
+                    centerPadding: '10%',
+                },
             }
-        }, ]
+        ]
     });
 
     $('.pizza__slider').slick({
@@ -54,12 +96,33 @@ $(function () {
         slidesToScroll: 4,
         dots: true,
         responsive: [{
-            breakpoint: 751,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                breakpoint: 1101,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                },
+
+            },
+            {
+                breakpoint: 841,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                },
+            },
+            {
+                breakpoint: 541,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    prevArrow: false,
+                    nextArrow: false,
+                    dots: false,
+                    centerPadding: '10%',
+                },
             }
-        }, ]
+        ]
     });
 
     $('.wok__slider').slick({
@@ -70,12 +133,33 @@ $(function () {
         slidesToScroll: 4,
         dots: true,
         responsive: [{
-            breakpoint: 751,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                breakpoint: 1101,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                },
+
+            },
+            {
+                breakpoint: 841,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                },
+            },
+            {
+                breakpoint: 541,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    prevArrow: false,
+                    nextArrow: false,
+                    dots: false,
+                    centerPadding: '10%',
+                },
             }
-        }, ]
+        ]
     });
 
     $('.novelties__slider').slick({
@@ -86,12 +170,33 @@ $(function () {
         slidesToScroll: 4,
         dots: true,
         responsive: [{
-            breakpoint: 751,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                breakpoint: 1101,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                },
+
+            },
+            {
+                breakpoint: 841,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                },
+            },
+            {
+                breakpoint: 541,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    prevArrow: false,
+                    nextArrow: false,
+                    dots: false,
+                    centerPadding: '10%',
+                },
             }
-        }, ]
+        ]
     });
 
     $('.stock__slider').slick({
@@ -102,12 +207,33 @@ $(function () {
         slidesToScroll: 4,
         dots: true,
         responsive: [{
-            breakpoint: 751,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                breakpoint: 1101,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                },
+
+            },
+            {
+                breakpoint: 841,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                },
+            },
+            {
+                breakpoint: 541,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    prevArrow: false,
+                    nextArrow: false,
+                    dots: false,
+                    centerPadding: '10%',
+                },
             }
-        }, ]
+        ]
     });
 
     const cards = document.querySelectorAll(".card");

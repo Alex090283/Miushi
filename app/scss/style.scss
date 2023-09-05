@@ -255,7 +255,7 @@
 
     button {
         border-radius: 50%;
-        background-color: transparent;  
+        background-color: transparent;
         width: 15px;
         height: 15px;
         border: 2px solid #c2c2c2;
@@ -337,6 +337,14 @@
         position: absolute;
         top: 0;
     }
+}
+
+.slick-slide.slick-current.slick-active {
+    z-index: 10 !Important;
+}
+
+.slick-slide {
+    z-index: 9 Important;
 }
 
 .sets {
