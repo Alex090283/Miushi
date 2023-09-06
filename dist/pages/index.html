@@ -9,20 +9,22 @@
                         <img class="slider-img" src="images/cover-slider.jpg" alt="">
                     </div>
                     <div class="container">
-                        <h1 class="cover__slider-title">
-                            Счастливые
-                            часы
-                            <span class="cover__slider-discount">
-                                скидка
-                                15%
-                            </span>
-                        </h1>
-                        <p class="cover__slider-time">
-                            с 11:00 до 16:00 в будние дни
-                        </p>
-                        <a class="cover__slider-btn" href="#">
-                            Подробнее
-                        </a>
+                        <div class="slider__inner-text">
+                            <h1 class="cover__slider-title">
+                                Счастливые
+                                часы
+                                <span class="cover__slider-discount">
+                                    скидка
+                                    15%
+                                </span>
+                            </h1>
+                            <p class="cover__slider-time">
+                                с 11:00 до 16:00 в будние дни
+                            </p>
+                            <a class="cover__slider-btn" href="#">
+                                Подробнее
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="cover__slider-box">
@@ -30,20 +32,22 @@
                         <img class="slider-img" src="images/cover-slider.jpg" alt="">
                     </div>
                     <div class="container">
-                        <h1 class="cover__slider-title">
-                            Счастливые
-                            часы
-                            <span class="cover__slider-discount">
-                                скидка
-                                15%
-                            </span>
-                        </h1>
-                        <p class="cover__slider-time">
-                            с 11:00 до 16:00 в будние дни
-                        </p>
-                        <a class="cover__slider-btn" href="#">
-                            Подробнее
-                        </a>
+                        <div class="slider__inner-text">
+                            <h1 class="cover__slider-title">
+                                Счастливые
+                                часы
+                                <span class="cover__slider-discount">
+                                    скидка
+                                    15%
+                                </span>
+                            </h1>
+                            <p class="cover__slider-time">
+                                с 11:00 до 16:00 в будние дни
+                            </p>
+                            <a class="cover__slider-btn" href="#">
+                                Подробнее
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="cover__slider-box">
@@ -51,20 +55,22 @@
                         <img class="slider-img" src="images/cover-slider.jpg" alt="">
                     </div>
                     <div class="container">
-                        <h1 class="cover__slider-title">
-                            Счастливые
-                            часы
-                            <span class="cover__slider-discount">
-                                скидка
-                                15%
-                            </span>
-                        </h1>
-                        <p class="cover__slider-time">
-                            с 11:00 до 16:00 в будние дни
-                        </p>
-                        <a class="cover__slider-btn" href="#">
-                            Подробнее
-                        </a>
+                        <div class="slider__inner-text">
+                            <h1 class="cover__slider-title">
+                                Счастливые
+                                часы
+                                <span class="cover__slider-discount">
+                                    скидка
+                                    15%
+                                </span>
+                            </h1>
+                            <p class="cover__slider-time">
+                                с 11:00 до 16:00 в будние дни
+                            </p>
+                            <a class="cover__slider-btn" href="#">
+                                Подробнее
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -74,9 +80,11 @@
     <section class="sets">
         <div class="container">
             <div class="sets__inner">
-                <h2 class="sets__title title">Сеты</h2>
+                <div class="title-box">
+                    <h2 class="sets__title title">Сеты</h2>
+                </div>
                 <div class="sets__slider">
-                    <div class="sets__slider-box card-box">
+                    <div class="sets__slider-box--hit card-box">
                         <img class="card-box__img" src="images/sets-1.jpg" alt="">
                         <h4 class="card-box__title">
                             Сет №10
@@ -90,7 +98,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">2 050 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -108,7 +122,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">1 590 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -126,11 +146,17 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">510 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
-                    <div class="sets__slider-box card-box">
+                    <div class="sets__slider-box--veg card-box">
                         <img class="card-box__img" src="images/sets-4.jpg" alt="">
                         <h4 class="card-box__title">
                             Сет №6
@@ -144,7 +170,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">400 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -162,7 +194,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">2 050 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -180,7 +218,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">1 590 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -198,7 +242,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">510 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -216,7 +266,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">400 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -234,7 +290,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">2 050 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -252,7 +314,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">1 590 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -270,7 +338,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">510 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -288,7 +362,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">400 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -306,7 +386,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">2 050 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -324,7 +410,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">1 590 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -342,7 +434,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">510 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -360,7 +458,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">400 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -378,7 +482,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">2 050 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -396,7 +506,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">1 590 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -414,7 +530,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">510 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -432,11 +554,16 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">400 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -445,10 +572,12 @@
     <section class="rolls">
         <div class="container">
             <div class="rolls__inner">
-                <h2 class="rolls__title title">Роллы</h2>
+                <div class="title-box">
+                    <h2 class="rolls__title title">Роллы</h2>
+                </div>
                 <div class="rolls__slider">
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-1.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-1.jpg" alt="">
                         <h4 class="card-box__title">
                             Кунсей батакон
                         </h4>
@@ -461,12 +590,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">260 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
-                    <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-2.jpg" alt="">
+                    <div class="rolls__slider-box--hot card-box">
+                        <img class="rolls__img card-box__img" src="images/rolls-2.jpg" alt="">
                         <h4 class="card-box__title">
                             Унаги диру
                         </h4>
@@ -479,12 +614,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">280 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-3.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-3.jpg" alt="">
                         <h4 class="card-box__title">
                             Филадельфия
                         </h4>
@@ -497,12 +638,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">280 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-4.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-4.jpg" alt="">
                         <h4 class="card-box__title">
                             Мексиканский
                         </h4>
@@ -515,12 +662,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">290 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-1.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-1.jpg" alt="">
                         <h4 class="card-box__title">
                             Кунсей батакон
                         </h4>
@@ -533,12 +686,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">260 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-2.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-2.jpg" alt="">
                         <h4 class="card-box__title">
                             Унаги диру
                         </h4>
@@ -551,12 +710,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">280 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-3.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-3.jpg" alt="">
                         <h4 class="card-box__title">
                             Филадельфия
                         </h4>
@@ -569,12 +734,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">280 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-4.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-4.jpg" alt="">
                         <h4 class="card-box__title">
                             Мексиканский
                         </h4>
@@ -587,12 +758,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">290 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-1.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-1.jpg" alt="">
                         <h4 class="card-box__title">
                             Кунсей батакон
                         </h4>
@@ -605,12 +782,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">260 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-2.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-2.jpg" alt="">
                         <h4 class="card-box__title">
                             Унаги диру
                         </h4>
@@ -623,12 +806,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">280 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-3.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-3.jpg" alt="">
                         <h4 class="card-box__title">
                             Филадельфия
                         </h4>
@@ -641,12 +830,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">280 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-4.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-4.jpg" alt="">
                         <h4 class="card-box__title">
                             Мексиканский
                         </h4>
@@ -659,12 +854,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">290 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-1.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-1.jpg" alt="">
                         <h4 class="card-box__title">
                             Кунсей батакон
                         </h4>
@@ -677,12 +878,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">260 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-2.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-2.jpg" alt="">
                         <h4 class="card-box__title">
                             Унаги диру
                         </h4>
@@ -695,12 +902,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">280 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-3.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-3.jpg" alt="">
                         <h4 class="card-box__title">
                             Филадельфия
                         </h4>
@@ -713,12 +926,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">280 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-4.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-4.jpg" alt="">
                         <h4 class="card-box__title">
                             Мексиканский
                         </h4>
@@ -731,12 +950,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">290 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-1.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-1.jpg" alt="">
                         <h4 class="card-box__title">
                             Кунсей батакон
                         </h4>
@@ -749,12 +974,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">260 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-2.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-2.jpg" alt="">
                         <h4 class="card-box__title">
                             Унаги диру
                         </h4>
@@ -767,12 +998,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">280 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-3.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-3.jpg" alt="">
                         <h4 class="card-box__title">
                             Филадельфия
                         </h4>
@@ -785,12 +1022,18 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">280 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="rolls__slider-box card-box">
-                        <img class="card-box__img" src="images/rolls-4.jpg" alt="">
+                        <img class="rolls__img card-box__img" src="images/rolls-4.jpg" alt="">
                         <h4 class="card-box__title">
                             Мексиканский
                         </h4>
@@ -803,7 +1046,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">290 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -815,7 +1064,9 @@
     <section class="pizza">
         <div class="container">
             <div class="pizza__inner">
-                <h2 class="pizza__title title">Пицца</h2>
+                <div class="title-box">
+                    <h2 class="pizza__title title">Пицца</h2>
+                </div>
                 <div class="pizza__slider">
                     <div class="pizza__slider-box card-box">
                         <img class="card-box__img" src="images/pizza-1.jpg" alt="">
@@ -831,11 +1082,17 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">480 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
-                    <div class="pizza__slider-box card-box">
+                    <div class="pizza__slider-box--hot card-box">
                         <img class="card-box__img" src="images/pizza-2.jpg" alt="">
                         <h4 class="card-box__title">
                             Вегетарианская
@@ -849,7 +1106,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">380 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -867,7 +1130,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">450 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -885,7 +1154,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">390 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -903,7 +1178,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">480 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -921,7 +1202,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">380 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -939,7 +1226,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">450 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -957,7 +1250,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">390 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -975,7 +1274,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">480 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -993,7 +1298,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">380 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -1011,7 +1322,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">450 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -1029,7 +1346,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">390 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -1047,7 +1370,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">480 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -1065,7 +1394,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">380 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -1083,7 +1418,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">450 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -1101,7 +1442,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">390 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -1119,7 +1466,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">480 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -1137,7 +1490,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">380 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -1155,7 +1514,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">450 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -1173,7 +1538,13 @@
                         </div>
                         <div class="card-box__price">
                             <div class="card-box__price-text">390 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -1185,10 +1556,12 @@
     <section class="wok">
         <div class="container">
             <div class="wok__inner">
-                <h2 class="wok__title title">WOK</h2>
+                <div class="title-box">
+                    <h2 class="wok__title title">WOK</h2>
+                </div>
                 <div class="wok__slider">
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-1.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-1.jpg" alt="">
                         <h4 class="card-box__title">
                             С говядиной
                         </h4>
@@ -1198,18 +1571,45 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-2.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-2.jpg" alt="">
                         <h4 class="card-box__title">
                             С курицей
                         </h4>
@@ -1219,18 +1619,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">290 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-3.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-3.jpg" alt="">
                         <h4 class="card-box__title">
                             С морепродуктами
                         </h4>
@@ -1240,18 +1666,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-4.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-4.jpg" alt="">
                         <h4 class="card-box__title">
                             С овощами
                         </h4>
@@ -1261,18 +1713,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-1.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-1.jpg" alt="">
                         <h4 class="card-box__title">
                             С говядиной
                         </h4>
@@ -1282,18 +1760,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-2.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-2.jpg" alt="">
                         <h4 class="card-box__title">
                             С курицей
                         </h4>
@@ -1303,18 +1807,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">290 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-3.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-3.jpg" alt="">
                         <h4 class="card-box__title">
                             С морепродуктами
                         </h4>
@@ -1324,18 +1854,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-4.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-4.jpg" alt="">
                         <h4 class="card-box__title">
                             С овощами
                         </h4>
@@ -1345,18 +1901,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-1.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-1.jpg" alt="">
                         <h4 class="card-box__title">
                             С говядиной
                         </h4>
@@ -1366,18 +1948,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-2.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-2.jpg" alt="">
                         <h4 class="card-box__title">
                             С курицей
                         </h4>
@@ -1387,18 +1995,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">290 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-3.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-3.jpg" alt="">
                         <h4 class="card-box__title">
                             С морепродуктами
                         </h4>
@@ -1408,18 +2042,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-4.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-4.jpg" alt="">
                         <h4 class="card-box__title">
                             С овощами
                         </h4>
@@ -1429,18 +2089,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-1.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-1.jpg" alt="">
                         <h4 class="card-box__title">
                             С говядиной
                         </h4>
@@ -1450,18 +2136,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-2.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-2.jpg" alt="">
                         <h4 class="card-box__title">
                             С курицей
                         </h4>
@@ -1471,18 +2183,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">290 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-3.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-3.jpg" alt="">
                         <h4 class="card-box__title">
                             С морепродуктами
                         </h4>
@@ -1492,18 +2230,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-4.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-4.jpg" alt="">
                         <h4 class="card-box__title">
                             С овощами
                         </h4>
@@ -1513,18 +2277,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-1.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-1.jpg" alt="">
                         <h4 class="card-box__title">
                             С говядиной
                         </h4>
@@ -1534,18 +2324,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-2.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-2.jpg" alt="">
                         <h4 class="card-box__title">
                             С курицей
                         </h4>
@@ -1555,18 +2371,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">290 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-3.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-3.jpg" alt="">
                         <h4 class="card-box__title">
                             С морепродуктами
                         </h4>
@@ -1576,18 +2418,44 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
                     <div class="wok__slider-box card-box">
-                        <img class="card-box__img" src="images/wok-4.jpg" alt="">
+                        <img class="wok__slider-img card-box__img" src="images/wok-4.jpg" alt="">
                         <h4 class="card-box__title">
                             С овощами
                         </h4>
@@ -1597,13 +2465,39 @@
                             <span class="wok__info-text">1350 Kkal</span>
                         </div>
 
-                        /**
-                        * todo сделать счетчик "добавить"
-                        */
-                        
+                        <div class="sauce-quantity">
+                            <div class="sauce-quantity__left">
+                                <span class="sauce-quantity__left-text">Добавить:</span>
+                                <span class="quantity"><span class="quantity__plus">+</span>0</span>
+                                <button class="clear">x</button>
+                            </div>
+                            <div class="sauce-quantity__right">
+                                <span><span class="price">0</span> руб.</span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                        <div class="sauce-option">
+                            <label for="sauce-select"></label>
+                            <select id="sauce-select" class="custom-select">
+                                <option class="custom-select__text" value="0">Без соуса</option>
+                                <option class="custom-select__text" value="70">Китайский соус-1</option>
+                                <option class="custom-select__text" value="70">Китайский соус-2</option>
+                                <option class="custom-select__text" value="70">Китайский соус-3</option>
+                                <option class="custom-select__text" value="70">Китайский соус-4</option>
+                                <option class="custom-select__text" value="70">Китайский соус-5</option>
+                                <option class="custom-select__text" value="70">Китайский соус-6</option>
+                            </select>
+                        </div>
+
                         <div class="card-box__price">
                             <div class="card-box__price-text">430 <span>руб.</span></div>
-                            <div class="card-box__price-quantity">1</div>
+                            <div class="card">
+                                <div class="counter">
+                                    <button class="decrement"></button>
+                                    <div class="card-box__price-quantity">1</div>
+                                    <button class="increment"></button>
+                                </div>
+                            </div>
                         </div>
                         <button class="card-box__btn" type="submit">В корзину</button>
                     </div>
@@ -1615,14 +2509,14 @@
     <section class="promotion">
         <div class="container">
             <div class="promotion__title">
-                <h3 class="promotion__title-novelties">Новинки</h3>
+                <h3 class="promotion__title-novelties promotion__title-novelties--active">Новинки</h3>
                 <h3 class="promotion__title-stock">Акции</h3>
             </div>
-            <div class="novelties">
+            <div class="novelties novelties--on">
                 <div class="novelties__inner">
                     <div class="novelties__slider">
-                        <div class="pizza__slider-box card-box">
-                            <img class="card-box__img" src="images/novelties-1.jpg" alt="">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
+                            <img class="novelties__img card-box__img" src="images/novelties-1.jpg" alt="">
                             <h4 class="card-box__title">
                                 Кунсей батакон
                             </h4>
@@ -1635,11 +2529,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">260 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box--hot card-box">
                             <img class="card-box__img" src="images/novelties-2.jpg" alt="">
                             <h4 class="card-box__title">
                                 Унаги диру
@@ -1653,11 +2553,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-3.jpg" alt="">
                             <h4 class="card-box__title">
                                 Филадельфия
@@ -1671,14 +2577,20 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-4.jpg" alt="">
                             <h4 class="card-box__title">
-                                Мексиканский 
+                                Мексиканский
                             </h4>
                             <div class="card-box__info">
                                 <span class="card-box__info-text">8 шт.</span>
@@ -1689,11 +2601,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">290 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-1.jpg" alt="">
                             <h4 class="card-box__title">
                                 Кунсей батакон
@@ -1707,11 +2625,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">260 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-2.jpg" alt="">
                             <h4 class="card-box__title">
                                 Унаги диру
@@ -1725,11 +2649,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-3.jpg" alt="">
                             <h4 class="card-box__title">
                                 Филадельфия
@@ -1743,14 +2673,20 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-4.jpg" alt="">
                             <h4 class="card-box__title">
-                                Мексиканский 
+                                Мексиканский
                             </h4>
                             <div class="card-box__info">
                                 <span class="card-box__info-text">8 шт.</span>
@@ -1761,11 +2697,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">290 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-1.jpg" alt="">
                             <h4 class="card-box__title">
                                 Кунсей батакон
@@ -1779,11 +2721,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">260 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-2.jpg" alt="">
                             <h4 class="card-box__title">
                                 Унаги диру
@@ -1797,11 +2745,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-3.jpg" alt="">
                             <h4 class="card-box__title">
                                 Филадельфия
@@ -1815,14 +2769,20 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-4.jpg" alt="">
                             <h4 class="card-box__title">
-                                Мексиканский 
+                                Мексиканский
                             </h4>
                             <div class="card-box__info">
                                 <span class="card-box__info-text">8 шт.</span>
@@ -1833,11 +2793,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">290 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-1.jpg" alt="">
                             <h4 class="card-box__title">
                                 Кунсей батакон
@@ -1851,11 +2817,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">260 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-2.jpg" alt="">
                             <h4 class="card-box__title">
                                 Унаги диру
@@ -1869,11 +2841,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-3.jpg" alt="">
                             <h4 class="card-box__title">
                                 Филадельфия
@@ -1887,14 +2865,20 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-4.jpg" alt="">
                             <h4 class="card-box__title">
-                                Мексиканский 
+                                Мексиканский
                             </h4>
                             <div class="card-box__info">
                                 <span class="card-box__info-text">8 шт.</span>
@@ -1905,11 +2889,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">290 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-1.jpg" alt="">
                             <h4 class="card-box__title">
                                 Кунсей батакон
@@ -1923,11 +2913,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">260 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-2.jpg" alt="">
                             <h4 class="card-box__title">
                                 Унаги диру
@@ -1941,11 +2937,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-3.jpg" alt="">
                             <h4 class="card-box__title">
                                 Филадельфия
@@ -1959,14 +2961,20 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-4.jpg" alt="">
                             <h4 class="card-box__title">
-                                Мексиканский 
+                                Мексиканский
                             </h4>
                             <div class="card-box__info">
                                 <span class="card-box__info-text">8 шт.</span>
@@ -1977,7 +2985,13 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">290 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
@@ -1987,7 +3001,7 @@
             <div class="stock">
                 <div class="stock__inner">
                     <div class="stock__slider">
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-1.jpg" alt="">
                             <h4 class="card-box__title">
                                 Кунсей батакон
@@ -2001,11 +3015,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">260 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-2.jpg" alt="">
                             <h4 class="card-box__title">
                                 Унаги диру
@@ -2019,11 +3039,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-3.jpg" alt="">
                             <h4 class="card-box__title">
                                 Филадельфия
@@ -2037,14 +3063,20 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-4.jpg" alt="">
                             <h4 class="card-box__title">
-                                Мексиканский 
+                                Мексиканский
                             </h4>
                             <div class="card-box__info">
                                 <span class="card-box__info-text">8 шт.</span>
@@ -2055,10 +3087,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">290 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
-                        </div>                        <div class="pizza__slider-box card-box">
+                        </div>
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-1.jpg" alt="">
                             <h4 class="card-box__title">
                                 Кунсей батакон
@@ -2072,11 +3111,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">260 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-2.jpg" alt="">
                             <h4 class="card-box__title">
                                 Унаги диру
@@ -2090,11 +3135,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-3.jpg" alt="">
                             <h4 class="card-box__title">
                                 Филадельфия
@@ -2108,14 +3159,20 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-4.jpg" alt="">
                             <h4 class="card-box__title">
-                                Мексиканский 
+                                Мексиканский
                             </h4>
                             <div class="card-box__info">
                                 <span class="card-box__info-text">8 шт.</span>
@@ -2126,10 +3183,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">290 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
-                        </div>                        <div class="pizza__slider-box card-box">
+                        </div>
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-1.jpg" alt="">
                             <h4 class="card-box__title">
                                 Кунсей батакон
@@ -2143,11 +3207,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">260 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-2.jpg" alt="">
                             <h4 class="card-box__title">
                                 Унаги диру
@@ -2161,11 +3231,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-3.jpg" alt="">
                             <h4 class="card-box__title">
                                 Филадельфия
@@ -2179,14 +3255,20 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-4.jpg" alt="">
                             <h4 class="card-box__title">
-                                Мексиканский 
+                                Мексиканский
                             </h4>
                             <div class="card-box__info">
                                 <span class="card-box__info-text">8 шт.</span>
@@ -2197,10 +3279,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">290 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
-                        </div>                        <div class="pizza__slider-box card-box">
+                        </div>
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-1.jpg" alt="">
                             <h4 class="card-box__title">
                                 Кунсей батакон
@@ -2214,11 +3303,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">260 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-2.jpg" alt="">
                             <h4 class="card-box__title">
                                 Унаги диру
@@ -2232,11 +3327,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-3.jpg" alt="">
                             <h4 class="card-box__title">
                                 Филадельфия
@@ -2250,14 +3351,20 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-4.jpg" alt="">
                             <h4 class="card-box__title">
-                                Мексиканский 
+                                Мексиканский
                             </h4>
                             <div class="card-box__info">
                                 <span class="card-box__info-text">8 шт.</span>
@@ -2268,10 +3375,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">290 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
-                        </div>                        <div class="pizza__slider-box card-box">
+                        </div>
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-1.jpg" alt="">
                             <h4 class="card-box__title">
                                 Кунсей батакон
@@ -2285,11 +3399,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">260 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-2.jpg" alt="">
                             <h4 class="card-box__title">
                                 Унаги диру
@@ -2303,11 +3423,17 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-3.jpg" alt="">
                             <h4 class="card-box__title">
                                 Филадельфия
@@ -2321,14 +3447,20 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">280 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
-                        <div class="pizza__slider-box card-box">
+                        <div class="novelties__slider-box pizza__slider-box card-box">
                             <img class="card-box__img" src="images/novelties-4.jpg" alt="">
                             <h4 class="card-box__title">
-                                Мексиканский 
+                                Мексиканский
                             </h4>
                             <div class="card-box__info">
                                 <span class="card-box__info-text">8 шт.</span>
@@ -2339,7 +3471,13 @@
                             </div>
                             <div class="card-box__price">
                                 <div class="card-box__price-text">290 <span>руб.</span></div>
-                                <div class="card-box__price-quantity">1</div>
+                                <div class="card">
+                                    <div class="counter">
+                                        <button class="decrement"></button>
+                                        <div class="card-box__price-quantity">1</div>
+                                        <button class="increment"></button>
+                                    </div>
+                                </div>
                             </div>
                             <button class="card-box__btn" type="submit">В корзину</button>
                         </div>
@@ -2351,7 +3489,9 @@
 
     <section class="advantages">
         <div class="container">
-            <h2 class="advantages__title title">10 причин купить у нас</h2>
+            <div class="title-box">
+                <h2 class="advantages__title title">10 причин купить у нас</h2>
+            </div>
             <div class="advantages__inner">
                 <div class="advantages__box">
                     <img class="advantages__img" src="images/advantages-1.svg" alt="">
@@ -2399,7 +3539,9 @@
 
     <section class="reviews">
         <div class="container">
-            <h2 class="reviews__title title">Отзывы</h2>
+            <div class="title-box">
+                <h2 class="reviews__title title">Отзывы</h2>
+            </div>
             <div class="reviews__inner">
                 <div class="reviews__box">
                     <div class="reviews__author">
@@ -2416,9 +3558,23 @@
                     </p>
                     <img class="reviews__product" src="images/product.jpg" alt="">
                     <div class="reviews__icons">
-                        <div class="reviews__heart"></div>
-                        <div class="reviews__comment"><span>2</span></div>
-                        <div class="reviews__mouthpiece"></div>
+                        <div class="reviews__heart">
+                            <svg height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7 3c-1.536 0-3.078.5-4.25 1.7-2.343 2.4-2.279 6.1 0 8.5L12 23l9.25-9.8c2.279-2.4 2.343-6.1 0-8.5-2.343-2.3-6.157-2.3-8.5 0l-.75.8-.75-.8C10.078 3.5 8.535 3 7 3z"
+                                    fill="#bacada" /></svg>
+                        </div>
+                        <div class="reviews__comment">
+                            <svg height="22" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 22.87L13.3 18H22V2H2v16h4v4.87z" data-name="Layer 2" fill="#bacada" /></svg>
+                            <span>2</span>
+                        </div>
+                        <div class="reviews__mouthpiece">
+                            <svg height="24" width="30" fill="#bacada" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13 2.5a1.5 1.5 0 013 0v11a1.5 1.5 0 01-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 011.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 000 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 01.496.008 64 64 0 011.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 01-.983 1.187h-.548a1 1 0 01-.916-.599l-1.314-2.48a65.81 65.81 0 011.692.064c.327.017.65.037.966.06z" />
+                            </svg>
+                        </div>
                     </div>
                     <a class="reviews__btn" href="#">Подписаться</a>
                 </div>
@@ -2437,9 +3593,23 @@
                     </p>
                     <img class="reviews__product" src="images/product.jpg" alt="">
                     <div class="reviews__icons">
-                        <div class="reviews__heart"></div>
-                        <div class="reviews__comment"><span>2</span></div>
-                        <div class="reviews__mouthpiece"></div>
+                        <div class="reviews__heart">
+                            <svg height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7 3c-1.536 0-3.078.5-4.25 1.7-2.343 2.4-2.279 6.1 0 8.5L12 23l9.25-9.8c2.279-2.4 2.343-6.1 0-8.5-2.343-2.3-6.157-2.3-8.5 0l-.75.8-.75-.8C10.078 3.5 8.535 3 7 3z"
+                                    fill="#bacada" /></svg>
+                        </div>
+                        <div class="reviews__comment">
+                            <svg height="22" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 22.87L13.3 18H22V2H2v16h4v4.87z" data-name="Layer 2" fill="#bacada" /></svg>
+                            <span>2</span>
+                        </div>
+                        <div class="reviews__mouthpiece">
+                            <svg height="24" width="30" fill="#bacada" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13 2.5a1.5 1.5 0 013 0v11a1.5 1.5 0 01-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 011.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 000 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 01.496.008 64 64 0 011.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 01-.983 1.187h-.548a1 1 0 01-.916-.599l-1.314-2.48a65.81 65.81 0 011.692.064c.327.017.65.037.966.06z" />
+                            </svg>
+                        </div>
                     </div>
                     <a class="reviews__btn" href="#">Подписаться</a>
                 </div>
@@ -2458,9 +3628,23 @@
                     </p>
                     <img class="reviews__product" src="images/product.jpg" alt="">
                     <div class="reviews__icons">
-                        <div class="reviews__heart"></div>
-                        <div class="reviews__comment"><span>2</span></div>
-                        <div class="reviews__mouthpiece"></div>
+                        <div class="reviews__heart">
+                            <svg height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7 3c-1.536 0-3.078.5-4.25 1.7-2.343 2.4-2.279 6.1 0 8.5L12 23l9.25-9.8c2.279-2.4 2.343-6.1 0-8.5-2.343-2.3-6.157-2.3-8.5 0l-.75.8-.75-.8C10.078 3.5 8.535 3 7 3z"
+                                    fill="#bacada" /></svg>
+                        </div>
+                        <div class="reviews__comment">
+                            <svg height="22" width="24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 22.87L13.3 18H22V2H2v16h4v4.87z" data-name="Layer 2" fill="#bacada" /></svg>
+                            <span>2</span>
+                        </div>
+                        <div class="reviews__mouthpiece">
+                            <svg height="24" width="30" fill="#bacada" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13 2.5a1.5 1.5 0 013 0v11a1.5 1.5 0 01-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 011.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 000 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 01.496.008 64 64 0 011.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 01-.983 1.187h-.548a1 1 0 01-.916-.599l-1.314-2.48a65.81 65.81 0 011.692.064c.327.017.65.037.966.06z" />
+                            </svg>
+                        </div>
                     </div>
                     <a class="reviews__btn" href="#">Подписаться</a>
                 </div>
@@ -2474,38 +3658,62 @@
                 <p class="subscribe__question">Есть вопросы?</p>
                 <p class="subscribe__call">Оставьте свои контакты</p>
                 <form class="subscribe__form">
-                    <input class="subscribe__form-name" type="text" placeholder="Серге|">
+                    <input class="subscribe__form-name" type="text" placeholder="Имя">
                     <input class="subscribe__form-phone" type="text" placeholder="Телефон">
                     <button class="subscribe__form-btn" type="submit">Отправить</button>
                 </form>
-                <p class="subscribe__text">Нажимая на кнопку «Отправить», вы даете согласие на обработку своих персональных данных.</p>
+                <p class="subscribe__text">Нажимая на кнопку «Отправить», вы даете согласие на обработку своих
+                    персональных данных.</p>
             </div>
         </div>
     </section>
 
     <section class="about">
         <div class="container">
-            <h2 class="about__title title">О компании</h2>
+            <div class="title-box">
+                <h2 class="about__title title">О компании</h2>
+            </div>
             <h3 class="about__subtitle">Заказ и доставка роллов, пиццы и WOK(Вок) в городе Курск</h3>
             <div class="about__inner">
                 <div class="about__box">
                     <p class="about__text">
-                        Суши МИЮШИ открылись в октябре 2012г. и уже завоевали успех у тех, кто ценит японскую кухню и качественное приготовление блюд.
+                        Суши МИЮШИ открылись в октябре 2012г. и уже завоевали успех у тех, кто ценит японскую кухню и
+                        качественное приготовление блюд.
                     </p>
                     <p class="about__text">
-                        С 2013 года мы осуществляем не только доставку на дом, теперь для вас открыт наш уютный небольшой зал. Придя сюда, вы сможете плотно пообедать, насладиться прекрасными напитками, посидеть с друзьями или обзавестись новыми знакомствами.
+                        С 2013 года мы осуществляем не только доставку на дом, теперь для вас открыт наш уютный
+                        небольшой зал. Придя сюда, вы сможете плотно пообедать, насладиться прекрасными напитками,
+                        посидеть с друзьями или обзавестись новыми знакомствами.
                     </p>
                     <p class="about__text">
-                        Открывая зал, Мы преследовали цель предоставить своим посетителям максимум удобства и комфорта, поэтому, придя сюда в первый раз, вы почувствуете себя как рыба в воде, окунувшись в домашнюю и теплую обстановку!
+                        Открывая зал, Мы преследовали цель предоставить своим посетителям максимум удобства и комфорта,
+                        поэтому, придя сюда в первый раз, вы почувствуете себя как рыба в воде, окунувшись в домашнюю и
+                        теплую обстановку!
                     </p>
                     <p class="about__text">
-                        Особое внимание мы уделяем организации доставки суши и других блюд, которая осуществляется только по г. Курске. Четкая и слаженная работа курьеров позволяет максимально сократить время от приготовления блюда до его попадания на стол заказчику. Как правило, оно составляет от 20 до 60 минут в зависимости от местонахождения клиента. Операторы службы доставки всегда осведомлены обо всех изменениях времени доставки и предупреждают клиентов заранее, а при возможных серьезных задержках в связи с дорожной ситуацией предложат Вам альтернативу. Мы беремся только за ту работу, которую можем выполнить в срок.
+                        Особое внимание мы уделяем организации доставки суши и других блюд, которая осуществляется
+                        только по г. Курске. Четкая и слаженная работа курьеров позволяет максимально сократить время от
+                        приготовления блюда до его попадания на стол заказчику. Как правило, оно составляет от 20 до 60
+                        минут в зависимости от местонахождения клиента. Операторы службы доставки всегда осведомлены обо
+                        всех изменениях времени доставки и предупреждают клиентов заранее, а при возможных серьезных
+                        задержках в связи с дорожной ситуацией предложат Вам альтернативу. Мы беремся только за ту
+                        работу, которую можем выполнить в срок.
                     </p>
                     <p class="about__text">
-                        В меню суши МИЮШИ представлено все многообразие японской кухни. Классические суши, и роллы приготовлены в соответствии с традиционными рецептами. Для любителей нежных и тающих во рту блюд предлагаются роллы с мясом краба, а также для больших любителей копченого угря потрясающий ролл Дракон. Для желающих пробовать что-то новое и необычное – острые ГУНКАНЫ и новинка нашего меню - ИНАРИ, широкий выбор горячих роллов. Большим компаниям будет удобно заказать суши и роллы, объединенные в сеты, включающие сразу несколько видов каждого из этих блюд. Кроме того, меню суши МИЮШИ не ограничено только японской кухней, здесь всегда можно заказать горячие и холодные блюда ЛАПША или РИС WOK с различными мясными и рыбными наполнителями, салаты, горячие закуски и различные напитки.
+                        В меню суши МИЮШИ представлено все многообразие японской кухни. Классические суши, и роллы
+                        приготовлены в соответствии с традиционными рецептами. Для любителей нежных и тающих во рту блюд
+                        предлагаются роллы с мясом краба, а также для больших любителей копченого угря потрясающий ролл
+                        Дракон. Для желающих пробовать что-то новое и необычное – острые ГУНКАНЫ и новинка нашего меню -
+                        ИНАРИ, широкий выбор горячих роллов. Большим компаниям будет удобно заказать суши и роллы,
+                        объединенные в сеты, включающие сразу несколько видов каждого из этих блюд. Кроме того, меню
+                        суши МИЮШИ не ограничено только японской кухней, здесь всегда можно заказать горячие и холодные
+                        блюда ЛАПША или РИС WOK с различными мясными и рыбными наполнителями, салаты, горячие закуски и
+                        различные напитки.
                     </p>
                     <p class="about__text">
-                        Оформив у нас заказ суши на дом, клиент может выбрать удобный ему способ оплаты: наличными при получении заказа или банковской картой VISA, MasterCard при заполнении специальной формы заказа на сайте или на дому через переносной терминал (заранее сообщив оператору о форме оплаты).
+                        Оформив у нас заказ суши на дом, клиент может выбрать удобный ему способ оплаты: наличными при
+                        получении заказа или банковской картой VISA, MasterCard при заполнении специальной формы заказа
+                        на сайте или на дому через переносной терминал (заранее сообщив оператору о форме оплаты).
                     </p>
                 </div>
                 <img class="about__img" src="images/about.jpg" alt="">
